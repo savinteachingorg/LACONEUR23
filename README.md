@@ -8,14 +8,18 @@ git clone https://github.com/savinteachingorg/LACONEUR23.git
 ```
 ### Enter the repository
 ```
-ls LACONEUR23
+cd LACONEUR23
 ```
 ### Create conda environment
 ```
 conda env create -f backprop_lab.yml
 ```
-### Open a Jupyter notebook
+### Activate conda environment
+```
+conda activate backprop_lab
+```
+### Launch jupyter notebook
 ```
 jupter notebook
 ```
-### Read the notebook content and fill in the TODOs
+### Open backprop_lab.ipynb, read the notebook content and fill in the TODOs
